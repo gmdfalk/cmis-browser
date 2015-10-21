@@ -6,10 +6,9 @@ describe('myApp.view1 module', function() {
 
   describe('view1 controller', function(){
 
-    it('should ....', inject(function($controller) {
-      //spec body
+    it('should show "\o/"', inject(function($controller) {
       var view1Ctrl = $controller('View1Ctrl');
-      expect(view1Ctrl).toBeDefined();
+      expect(view1Ctrl.greeting).toBe("\o/");
     }));
 
   });
