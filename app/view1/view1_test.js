@@ -13,7 +13,11 @@ describe('myApp.view1 module', function() {
         }));
         
         it('should show "Hello"', function(){
-            expect(view1Controller.greeting).toEqual('Hello');
+            expect(scope.greeting).toEqual('Hello');
+        });
+
+        it('should show calculate the square', function(){
+        	expect(scope.double(2)).toEqual(4);
         });
     });
 });

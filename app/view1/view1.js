@@ -9,7 +9,7 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', [function() {
-	this.greeting = "Hello";
-	this.double = function(num) { return num * 2; };
+.controller('View1Ctrl', ['$scope', function($scope) {
+	$scope.greeting = "Hello";
+	$scope.double = function(num) { return num * 2; };
 }]);
