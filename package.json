@@ -1,8 +1,7 @@
 {
   "name": "cmis-browser",
-  "private": true,
-  "version": "0.0.1",
   "description": "A web based CMIS repository browser",
+  "version": "0.0.1",
   "repository": "https://github.com/mikar/cmis-browser",
   "license": "MIT",
   "devDependencies": {
