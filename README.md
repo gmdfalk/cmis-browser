@@ -12,19 +12,22 @@ CMIS tries to do for content and document management systems what OBDC did for r
 
 ### Cool, now what's this project all about?
 
-cmis-browser provides some very basic functionality to browse and manipulate CMIS repositories like:  
+Cmis-browser provides some basic functionality to browse and manipulate CMIS repositories like:  
+  
 * User login and authentication  
 * Browse and list files and folders  
 * Upload and download files and folders  
 * Show metadata of files and folders  
 
 However, it does not (currently) support the many advanced features of the CMIS specification like:  
+
 * Relationships  
 * Renditions  
 * Policies  
 * Extensions  
 * Queries  
 * TypeDefinitions  
+
 
 ## Getting Started
 
@@ -50,7 +53,7 @@ Start with `npm start` and browse to the app at `http://localhost:8000/app/index
 
 ## Testing
 
-### Running Unit Tests (Karma)
+### Running Unit Tests
 
 The following command will start a Karma test runner that runs the unit tests once  
 on load and then whenever a file is changed.  
@@ -65,7 +68,7 @@ npm run test-single-run
 ```
 
 
-### End to end testing (Jasmine)
+### Running integration tests
 
 End to end tests are being run with Protractor. And since Protractor is built  
 on WebDriver we need to install it (once):  
