@@ -1,9 +1,33 @@
-# cmis-browser â€” an open browser for cmis-repositories
-
+# cmis-browser â€” a web based CMIS repository browser
 [![Build Status](https://travis-ci.org/mikar/cmis-browser.svg?branch=master)](https://travis-ci.org/mikar/cmis-browser)
-## Getting Started
 
-To get you started you can simply clone the angular-seed repository and install the dependencies:
+
+## About this project
+
+### What is CMIS?
+
+[CMIS](http://docs.oasis-open.org/cmis/CMIS/v1.0/cmis-spec-v1.0.html) is an open standard by [OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis) that allows different content management systems to inter-operate over the Internet. Specifically, CMIS defines an abstraction layer for controlling diverse document management systems and repositories using web protocols. ([Wikipedia](https://en.wikipedia.org/wiki/Content_Management_Interoperability_Services))
+
+It tries to do for content and document management systems what OBDC did for relational databases which is  
+industry wide standardization of interaction with these systems.  
+
+### Cool, now what's this project all about?
+
+cmis-browser provides some very basic functionality to browse and manipulate CMIS repositories like:  
+• User login and authentication
+• Browse and list files and folders
+• Upload and download files and folders
+• Show metadata of files and folders
+
+However, it does not (currently) support the many advanced features of the CMIS specification like:  
+• Relationships
+• Renditions
+• Policies
+• Extensions
+• Queries
+• TypeDefinitions
+
+## Getting Started
 
 ### Prerequisites
 
