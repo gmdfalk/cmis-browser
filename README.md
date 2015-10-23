@@ -1,8 +1,6 @@
 # cmis-browser — A simple web based CMIS repository browser
-[![Build Status](https://travis-ci.org/mikar/cmis-browser.svg?branch=master&style=flat-square)](https://travis-ci.org/mikar/cmis-browser)
-![npm](https://img.shields.io/npm/v/npm.svg?style=flat-square)
-![bower](https://img.shields.io/bower/v/bootstrap.svg?style=flat-square)
-![MIT License](https://img.shields.io/npm/l/express.svg?style=flat-square)
+[![Build Status](https://travis-ci.org/mikar/cmis-browser.svg?branch=master)](https://travis-ci.org/mikar/cmis-browser)
+![MIT License](https://img.shields.io/npm/l/express.svg)
 
 ## About this project
 
