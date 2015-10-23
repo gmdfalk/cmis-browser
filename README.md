@@ -6,9 +6,9 @@
 
 ### What is CMIS?
 
-[CMIS](http://docs.oasis-open.org/cmis/CMIS/v1.0/cmis-spec-v1.0.html) is an open standard by [OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis) that allows different content management systems to inter-operate over the Internet. Specifically, CMIS defines an abstraction layer for controlling diverse document management systems and repositories using web protocols. ([Wikipedia](https://en.wikipedia.org/wiki/Content_Management_Interoperability_Services))
+> [CMIS](http://docs.oasis-open.org/cmis/CMIS/v1.0/cmis-spec-v1.0.html) is an open standard by [OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis) that allows different content management systems to inter-operate over the Internet. Specifically, CMIS defines an abstraction layer for controlling diverse document management systems and repositories using web protocols. (source: [Wikipedia](https://en.wikipedia.org/wiki/Content_Management_Interoperability_Services))
 
-It tries to do for content and document management systems what OBDC did for relational databases which is industry wide standardization of interaction with these Database/Content management systems.  
+CMIS tries to do for content and document management systems what OBDC did for relational databases which is industry wide standardization of interaction with these Database/Content management systems.  
 
 ### Cool, now what's this project all about?
 
