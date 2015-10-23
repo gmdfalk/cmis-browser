@@ -1,4 +1,4 @@
-# cmis-browser â€” a web based CMIS repository browser
+# cmis-browser — a web based CMIS repository browser
 [![Build Status](https://travis-ci.org/mikar/cmis-browser.svg?branch=master)](https://travis-ci.org/mikar/cmis-browser)
 
 
@@ -8,24 +8,23 @@
 
 [CMIS](http://docs.oasis-open.org/cmis/CMIS/v1.0/cmis-spec-v1.0.html) is an open standard by [OASIS](https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=cmis) that allows different content management systems to inter-operate over the Internet. Specifically, CMIS defines an abstraction layer for controlling diverse document management systems and repositories using web protocols. ([Wikipedia](https://en.wikipedia.org/wiki/Content_Management_Interoperability_Services))
 
-It tries to do for content and document management systems what OBDC did for relational databases which is  
-industry wide standardization of interaction with these systems.  
+It tries to do for content and document management systems what OBDC did for relational databases which is industry wide standardization of interaction with these Database/Content management systems.  
 
 ### Cool, now what's this project all about?
 
 cmis-browser provides some very basic functionality to browse and manipulate CMIS repositories like:  
-• User login and authentication
-• Browse and list files and folders
-• Upload and download files and folders
-• Show metadata of files and folders
+* User login and authentication  
+* Browse and list files and folders  
+* Upload and download files and folders  
+* Show metadata of files and folders  
 
 However, it does not (currently) support the many advanced features of the CMIS specification like:  
-• Relationships
-• Renditions
-• Policies
-• Extensions
-• Queries
-• TypeDefinitions
+* Relationships  
+* Renditions  
+* Policies  
+* Extensions  
+* Queries  
+* TypeDefinitions  
 
 ## Getting Started
 
@@ -130,7 +129,7 @@ You can run this every time you update the version of Angular that you are using
 
 ### Running the App during Development
 
-The angular-seed project comes preconfigured with a local development webserver.  It is a node.js
+This project comes preconfigured with a local development webserver.  It is a node.js
 tool called [http-server](https://github.com/nodeapps/http-server). You can start this webserver with `npm start` but you may choose to install the tool globally:
 
 ```
