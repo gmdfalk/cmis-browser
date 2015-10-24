@@ -12,4 +12,8 @@ angular.module('myApp.view1', ['ngRoute'])
 .controller('View1Ctrl', ['$scope', function($scope) {
 	$scope.greeting = "Hello";
 	$scope.double = function(num) { return num * 2; };
+	var cmis = require('cmis');
+	var url = '/alfresco/cmisbrowser';
+	var session = cmis.createSession(url);
+	session.setCredentials('admin','admin');
 }]);
