@@ -10,9 +10,8 @@
     "angular-mocks": "~1.4.7",
     "angular-route": "~1.4.7",
     "angular-loader": "~1.4.7",
-    "bootstrap": "~3.0.0"  
-    "cmis": "~0.2.0",
-    "html5-boilerplate": "~5.2.0",
-    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "cmis": "~0.2.1",
+    "html5-boilerplate": "~5.2.0"
   }
 }
