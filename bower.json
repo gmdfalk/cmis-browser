@@ -15,5 +15,8 @@
     "bootstrap": "latest",
     "cmis": "^0.2.1",
     "html5-boilerplate": "^5.2.0"
+  },
+  "resolutions": {
+    "angular": "1.4.7"
   }
 }
